@@ -1,4 +1,6 @@
-#ENSESt is a module that uses Evolution Strategies (ES) instead of Genetic Algorithms (GA) as Evolutionary Algorithm (EA) in the NSGA-II procedure for multi-objective optimization.
+#ENSESt
+
+ENSESt is a module that uses Evolution Strategies (ES) instead of Genetic Algorithms (GA) as Evolutionary Algorithm (EA) in the NSGA-II procedure for multi-objective optimization.
 
 The algorithm is able to find the pareto optimal front in most of the functions implemented in the file 'Examples.m', but the algorithm is unable to find the Pareto optimal front of the functions ZDT1, ZDT2, ZDT3, ZDT4 (Cases 11, 12, 13, 14 in file 'Examples.m') when the number of states is set to 30 (for ZDT1, ZDT2, ZDT3) and 10 (for ZDT4) as Prof. Deb specified in [1], but the pareto is found if the number of states is set to 2 (in those examples).
 
